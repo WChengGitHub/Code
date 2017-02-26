@@ -1,0 +1,8 @@
+package cn.sop;
+
+public class LogginAspectJ {
+	public void runBefore()
+	{
+		System.out.println("begin...");
+	}
+}

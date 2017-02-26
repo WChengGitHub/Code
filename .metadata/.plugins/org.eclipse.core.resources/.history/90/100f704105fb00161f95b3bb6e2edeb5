@@ -1,0 +1,13 @@
+package com.genertic.di;
+
+public class BaseService<T> {
+	
+	private BaseResiposity<T> baseResiposity;
+	
+	public void add()
+	{
+		System.out.println("add...");
+		System.out.println(baseResiposity);
+	}
+	
+}
