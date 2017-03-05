@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="spring_01"/>
+<aop-project name="spring_02">
+<aspect-definition advice-class-name="cn.sop.LogginAspectJ" advice-method-name="runBefore" advice-type="BEFORE" aspect-end-line-number="10" aspect-name="logginAspectJ" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_02/src/applicationContext.xml" pointcut-expression="execution(public int add(int, int))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:spring_02|3:src/applicationContext.xml|7:beans:8|8:arithmeticCalculator:8" bean-file="/spring_02/src/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/spring_02/src/applicationContext.xml" source="=spring_02/src&lt;cn.sop{LogginAspectJ.java[LogginAspectJ~runBefore" source-start-line="12" target="=spring_02/src&lt;cn.sop{ArithmeticCalculatorImp.java[ArithmeticCalculatorImp~add~I~I" target-start-line="9"/>
+</aspect-definition>
+</aop-project>
 </aop-reference-model>
