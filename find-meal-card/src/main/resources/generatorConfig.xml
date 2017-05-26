@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+       <properties resource="db.properties"/>
+       <!-- !!!! Driver Class Path !!!! -->
+       <classPathEntry location="${jdbc.location}"/>
+       <context id="context" targetRuntime="MyBatis3">
+              <!-- 閺勵垰鎯侀崢濠氭珟濞夈劑鍣�-->
+              <commentGenerator>
+                     <property name="suppressAllComments" value="true"/>
+                     <property name="suppressDate" value="true"/>
+              </commentGenerator>
+              <!-- !!!! Database Configurations !!!! -->
+              <jdbcConnection driverClass="${jdbc.driver}"
+                              connectionURL="${jdbc.url}"
+                              userId="${jdbc.username}" password="${jdbc.password}"/>
+
+              <javaTypeResolver>
+                     <property name="forceBigDecimals" value="false"/>
+              </javaTypeResolver>
+
+              <!-- !!!! Model Configurations !!!! -->
+              <javaModelGenerator targetPackage="pojo" targetProject="src/main/java">
+                     <!-- enableSubPackages:閺勵垰鎯佺拋锕昪hema娴ｆ粈璐熼崠鍛畱閸氬海绱� -->
+                     <property name="enableSubPackages" value="false"/>
+                     <!-- 娴犲孩鏆熼幑顔肩氨鏉╂柨娲栭惃鍕拷鑹邦潶濞撳懐鎮婇崜宥呮倵閻ㄥ嫮鈹栭弽锟� -->
+                     <property name="trimStrings" value="true"/>
+              </javaModelGenerator>
+
+              <!-- !!!! Mapper XML Configurations !!!! -->
+              <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+                     <property name="enableSubPackages" value="false"/>
+              </sqlMapGenerator>
+
+              <!-- !!!! Mapper Interface Configurations !!!! -->
+              <javaClientGenerator targetPackage="mapper" targetProject="src/main/java" type="XMLMAPPER">
+                     <property name="enableSubPackages" value="false"/>
+              </javaClientGenerator>
+
+              <!-- !!!! Table Configurations !!!! -->
+              <!-- 閹稿洤鐣鹃弫鐗堝祦鎼存捁銆� -->
+              <table schema="" tableName="tb_canteen_worker"/>
+              <table schema="" tableName="tb_student_card"/>
+
+
+
+
+       </context>
+</generatorConfiguration>

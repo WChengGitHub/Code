@@ -1,0 +1,58 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+h1{
+	font-weight:normal;
+	font-size:1.1em;
+	margin-bottom:1em;
+	text-align:center;
+}
+.all{
+	width:280px;
+	margin:100px auto;
+}
+.main{
+	width:280px;
+}
+.all>p{
+	font-size:0.8em;
+	border:1px solid #bebebe;
+	border-radius:4px;
+	width:282px;
+	line-height:3.5em;
+	text-align:center;
+	margin-top:20px;
+}
+.all fieldset{
+	padding:20px 20px 0px 20px;
+	border:1px solid #bebebe;
+	border-radius:4px;
+}
+.all label{
+	display:block;
+	padding-bottom:8px;
+	font-weight:500;
+	font-size:1em;
+}
+.all input{
+	width:240px;
+	height:2.4em;
+	border:1px solid #bebebe;
+	border-radius:4px;
+	margin-bottom:13px;
+}
+.submit{
+	background-color:green;
+	color:white;
+	margin-top:4px;
+	height:2.8em !important;
+	border-style:outset !important;
+}
+.newAccount{
+	color:#007FFF;
+	text-decoration:none;
+}
+.newAccount:hover{
+	text-decoration:underline;
+}

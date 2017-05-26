@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+.all header{
+	overflow:hidden;
+	color:white;
+	background-color:black;
+	opacity:.85;
+}
+.all header p{
+	display:inline;
+	line-height:3em;
+	margin-left:20%;
+}
+.all header a{
+	display:inline;
+	line-height:3em;
+	float:right;
+	margin-right:20%;
+}
+.main{
+	width:540px;
+	margin:50px auto 0 auto;
+}
+.main h1{
+	font-weight:normal;
+	font-size:1.2em;
+	margin-bottom:.3em;
+}
+.main>p{
+	font-size:0.9em;
+	padding-bottom:1em;
+	width:500px;
+	border-bottom:1px solid #bebebe;
+}
+.main form{
+	margin-top:1.5em;
+}
+.main fieldset{
+	border:none;
+}
+.main fieldset p{
+	border-bottom:1px solid #bebebe;
+	padding-bottom:1em;
+	width:500px;
+	box-sizing:border-box;
+}
+.main label{
+	display:block;
+	margin:5px;
+}
+.main .studentNumber{
+	width:500px;
+	height:2.3em;
+	border:1px solid #bebebe;
+	border-radius:4px;
+	box-sizing:border-box;
+}
+.main .submit{
+	color:white;
+	background-color:green;
+	width:10em;
+	height:2.5em;
+	border:1px solid #bebebe;
+	border-radius:4px;
+	margin-top:15px;
+}

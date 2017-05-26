@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+	background-color:#686a63;
+	background-image:url(../images/background1.jpg);
+	background-size:100%,100%;
+}
+.all{
+	width:960px;
+	margin:0 auto;
+}
+header{
+	overflow:hidden;
+}
+.navigation{
+	padding-top:1em;
+	float:right;
+}
+.navigation li{
+	font-weight:bold;
+	display:inline-block;
+	margin-right:0.5em;
+}
+.navigation li a{
+	color:white;
+	text-decoration:none;
+}
+.main{
+	margin-top:150px;
+	overflow:hidden;
+}
+.main article{
+	width:300px;
+	float:left;
+	margin-top:30px;
+	margin-left:100px;
+}
+.main h1{
+	font-weight:bold;
+	font-size:2.3em;
+	color:white;
+	margin-bottom:20px;
+}
+.main article p{
+	font-size:1.8em;
+	line-height:1.8em;
+	text-align:justify;
+}
+.main form{
+	float:right;
+	width:420px;
+	background-color:white;
+	border:2px solid white;
+	border-radius:5px;
+}
+.main form fieldset{
+	padding-left:45px;
+	padding-top:30px;
+	padding-bottom:20px;
+	border:2px solid white;
+	border-radius:5px;
+}
+.main form fieldset p{
+	margin-bottom:10px;
+}
+.main form label{
+	display:block;
+	margin-bottom:5px;
+}
+.main form input{
+	width:320px;
+	height:2.5em;
+	border:2px solid #bebebe;
+	border-radius:5px;
+}
+.submit{
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:green;
+	display:block;
+	color:white;
+	height:3em !important;
+}

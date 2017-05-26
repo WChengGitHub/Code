@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sql/find_meal_card.sql" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/utils/GetId.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mybatis/sqlMapperConfig.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-Dao.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-Service.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-transaction.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
